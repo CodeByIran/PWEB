@@ -1,0 +1,19 @@
+.card{
+    transition: .35s;
+    cursor: pointer;
+}
+
+.cards-container:hover > :not(:hover){
+   opacity: .4;
+   transform: scale(0.9);
+}
+
+main figure img{
+    transition: .35s;
+    cursor: pointer;
+}
+
+main figure img:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
+}
